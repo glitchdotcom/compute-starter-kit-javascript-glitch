@@ -1,22 +1,23 @@
 {
-  "name": "compute-starter-kit-javascript-default",
-  "version": "0.4.0",
+  "name": "compute-starter-kit-javascript-glitch",
+  "version": "0.1.0",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fastly/compute-starter-kit-javascript-default.git"
+    "url": "git+https://github.com/glitchdotcom/compute-starter-kit-javascript-glitch.git"
   },
-  "author": "oss@fastly.com",
+  "author": "sue@glitch.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fastly/compute-starter-kit-javascript-default/issues"
+    "url": "https://github.com/glitchdotcom/compute-starter-kit-javascript-glitch/issues"
   },
-  "homepage": "https://developer.fastly.com/solutions/starters/compute-starter-kit-javascript-default",
+  "homepage": "https://glitch.com/~fastly-hello-compute",
   "engines": {
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "@fastly/js-compute": "^1.7.1"
+    "@fastly/js-compute": "^1.7.1",
+    "@fastly/expressly": "^1.2.0"
   },
   "devDependencies": {
     "webpack": "^5.78.0",
