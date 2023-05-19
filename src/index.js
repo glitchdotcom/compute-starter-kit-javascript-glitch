@@ -3,7 +3,7 @@ addEventListener("fetch", event => {
   const req = event.request;
 
   const backendResponse = fetch(req, {
-    backend: "backend_1"
+    backend: "origin_0"
   });
 
   event.respondWith(backendResponse);
